@@ -1,17 +1,19 @@
-using System;
-
-namespace Test
+public class TestClass<#>()
 {
-	public class TestClass<#>()
+	public Action<#> Action;
+
+	public TestClass(Action<#> action)
 	{
-		public void Invoke<#>()
-		{
 
-		}
+	}
 
-		public void Invoke<#>(#args)
-		{
+	public void Invoke()
+	{
 
-		}
+	}
+
+	public void Invoke(#args)
+	{
+
 	}
 }
