@@ -39,7 +39,7 @@ public class TestClass<#>()
 
 There are two identifiers used to generate the resulting code from the template.
 
-- **<#>** - This identifies generic parameters (i.e. <T1, T2, ..., T<sub>n</sub>)
+- **<#>** - This identifies generic parameters (i.e. <T1, T2, ..., T<sub>n</sub>>)
 
 - **#args** - This identifies generic arguments (i.e. T1 arg1, T2 arg2, ..., T<sub>n</sub> arg<sub>n</sub>)
 
@@ -70,7 +70,7 @@ public class TestClass<#>()
 }
 ```
 
-The resulting output file will contain:
+The [resulting output file](TemplateTest_output.txt) will contain:
 
 ```
 public class TestClass<T1>()
